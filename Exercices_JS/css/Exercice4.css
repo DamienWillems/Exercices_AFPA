@@ -1,0 +1,22 @@
+#calculMoney {
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 5%;
+    margin-left: 39%;
+    width: 20%;
+    padding: 1%;
+}
+#calculMoney>button {
+    margin-left: 42%;
+}
+#resultMoney {
+    display: none;
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 1%;
+    margin-left: 39%;
+    width: 20%;
+    padding: 1%;
+}

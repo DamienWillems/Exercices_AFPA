@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Exercices JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1 class="main text-white" id="0">Exercices JavaScript</h1> <!-- Titre du menu principal -->
+        <div class= "d-none text-white">
+            <h1 class="exHead">Exercice n°1</h1> <!-- Titre de l'exercice 1-->
+            <h1 class="exHead">Exercice n°2</h1><!-- Titre de l'exercice 2-->
+            <h1 class="exHead">Exercice n°3</h1> <!-- Titre de l'exercice 3-->
+            <h1 class="exHead">Exercice n°4</h1> <!-- Titre de l'exercice 4-->
+            <h1 class="exHead">Exercice n°5</h1> <!-- Titre de l'exercice 5-->
+            <h1 class="exHead">Exercice n°6</h1> <!-- Titre de l'exercice 6-->
+            <h1 class="exHead">Exercice n°7</h1><!-- Titre de l'exercice 7-->
+            <h1 class="exHead">Exercice n°8</h1><!-- Titre de l'exercice 8-->
+            <h1 class="exHead">Exercice n°9</h1> <!-- Titre de l'exercice 9-->
+            <h1 class="exHead">Exercice n°10</h1> <!-- Titre de l'exercice 10-->
+        </div>
+    </header>
+
+    <!-- Menu Principal -->
+    <div class="row justify-content-evenly">
+        <div class="bigDiv col-4" id="btn-1-5"> <!-- Rectangle noir contenant les boutons 1 à 5 -->
+            <button class="btn text-white" id="exercice1">Exercice n°1</button>
+            <button class="btn text-white" id="exercice2">Exercice n°2</button>
+            <button class="btn text-white" id="exercice3">Exercice n°3</button>
+            <button class="btn text-white" id="exercice4">Exercice n°4</button>
+            <button class="btn text-white" id="exercice5">Exercice n°5</button>
+        </div>
+        <div class="bigDiv col-4" id="btn-6-10"> <!-- Rectangle noir contenant les boutons 6 à 10 -->
+            <button class="btn text-white" id="exercice6">Exercice n°6</button>
+            <button class="btn text-white" id="exercice7">Exercice n°7</button>
+            <button class="btn text-white" id="exercice8">Exercice n°8</button>
+            <button class="btn text-white" id="exercice9">Exercice n°9</button>
+            <button class="btn text-white" id="exercice10">Exercice n°10</button>
+        </div>
+    </div>
+
+    <!-- Exercice 01 -->
+    <div class="pageEx d-none"> <!-- Div transparent présent à chaque exercice servant uniquement à faciliter la présentation de la page -->
+        <div id="zorglubien">
+            <h2>Vous allez cracher !</h2>
+            <p>
+                Vous êtes :
+            </p>
+            <select name="hf" id="gender">
+                <option value=""> -- Sélectionnez votre sexe --</option>
+                <option value="homme">Un homme</option>
+                <option value="femme">Une femme</option>
+            </select>
+            <p>Vous avez :</p>
+            <input type="text" min="1" max="150" placeholder="Âge" id="zorgAge">
+            <button class="validation">Valider</button>
+        </div>
+        <div class="results d-none" id="resultZorg">
+            <p id="resultTaxes"></p> 
+        </div>
+    </div>
+
+    <!-- Exercice 02 -->
+    <div class="pageEx d-none">
+        <div id="reprographie">
+            <h2>Allez, on tue des arbres !</h2>
+            <p>
+                Veuillez entrer le nombre de photocopie voulu.
+            </p>
+            <input type="text" placeholder="Nombre de photocopie ..." id="nbCopie">
+            <button class="validation">Valider</button>
+        </div>
+        <div class="results d-none" id="reprogResult">
+            <p id=resultCopie></p>
+        </div>
+    </div>
+
+    <!-- Exercice 03 -->
+    <div class="pageEx d-none">
+        <div id="progHour">
+            <h2>L'horloge du tur-fu</h2>
+                <label for='hour'>Sélectionnez les heures</label>
+                <input id="hour" placeholder="heure ...">		
+                <label for='minute'>Sélectionnez les minutes</label>
+                <input id="minute" placeholder="minute ...">
+                <label for='second'>Sélectionnez les secondes</label>
+                <input id="second" placeholder="seconde ...">
+				</label>
+			<button class="validation">Valider</button>
+        </div>
+        <div class="results" id="hourResult">
+            <p id="textHour"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 04 -->
+    <div class="pageEx d-none">
+        <div id= calculMoney>
+            <h2>Bouffe ta monnaie</h2>
+                <label for="amount">Montant du ticket :</label>
+                <input id="amount" placeholder="Configurez les prix ...">
+                <label for="paid">Argent donné</label>
+                <input id="paid" placeholder="Argent donnée ...">
+            <button class="validation">Valider</button>
+        </div>
+        <div class="results" id="resultMoney">
+            <p id="textMoney"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 05 -->
+    <div class="pageEx d-none">
+        <div id =verifMail>
+            <h2>Voyons si ce mail est valide (même si en fait non)</h2>
+                <label for="mail">Entrez une adresse mail.</label>
+                <input id="mail" placeholder="mail ...">
+        </div>
+        <div class="results" id= resultMail>
+            <p id= "textMail"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 06 -->
+    <div class="pageEx d-none">
+        <div id="assurance">
+            <h2>De quelle couleur es-tu ? (Je suis pas raciste)</h2>
+            <label for="driverAge">Indiquez votre âge :</label>
+            <input id="driverAge" placeholder="Âge...">
+            <label for="driverLicense">Depuis combien de temps avez-vous le permis ?</label>
+            <input id="driverLicense" placeholder="Permis de conduire ...">
+            <label for="accident">Combien d'accidents avez-vous eu ?</label>
+            <input id="accident" placeholder ="Accidents ...">
+            <label for="loyalty">Depuis combien de temps êtes-vous client chez nous ?</label>
+            <input id="loyalty" placeholder ="Années ...">
+            <button class="validation">Valider</button>
+        </div>
+        <div class="results" id="resultAssurance">
+            <p id="assurResult"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 07 -->
+    <div class="pageEx d-none">
+        <div id="chosePassword">
+            <h2>Le bon mot de passe !</h2>
+            <label for="password">Choisissez un mot de passe.</label>
+            <input id="password" placeholder="Mot de passe...">
+        </div>
+        <div class="results" id="resultPassword">
+            <p id="passwordResult"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 08 -->
+    <div class="pageEx d-none">
+        <div id="justePrix">
+            <h2>Le juste prix !</h2>
+            <label for="price" id="changeLabel">Devinez le prix de l'objet qui apparaîtra.<br> (entre 1€ et 100€)</label>
+            <div id="objectPicture"></div>
+            <div id="objectName"></div>
+            <button class="validation">Commencer</button>
+        </div>
+        <div class="results" id="resultJustePrix">
+            <p id="justePrixResult"></p>
+            <input id="price" placeholder="Prix...">
+            <button class="proposition">Proposer</button>
+            <p id="tries"></p>
+        </div>
+    </div>
+
+    <!-- Exercice 09 -->
+    <div class="pageEx d-none">
+
+    </div>
+
+    <!-- Exercice 10 -->
+    <div class="pageEx d-none">
+        
+    </div>
+
+    <footer>
+        <div class="d-none" id="return">
+            <button id="btn-foot"><span>Retour à la sélection des exercices</span></button>
+        </div>
+    </footer>
+    <script src="./js/const.js"></script>
+    <script src="./js/error.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/display.js"></script>
+    <script src="./js/buttons.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+const PAGE = document.getElementsByClassName("pageEx");
+const VALID = document.getElementsByClassName("validation");
+const BTN = document.querySelectorAll("button");
+const RESET = document.querySelectorAll("input");
+const NO_RESULT = document.getElementsByClassName("results");
+const DIV_MAIN = document.getElementsByClassName("bigDiv");
+const RETURN = document.getElementById("return");
+const BTN_FOOT = document.getElementById("btn-foot");
+const EX_0 = document.getElementById("0");
+const EX_1_10 = document.getElementsByClassName("exHead");
+const PROPOSITION = document.getElementsByClassName("proposition");
+const CL = console.log; // C'est trop long d'écrire console.log à chaque fois.

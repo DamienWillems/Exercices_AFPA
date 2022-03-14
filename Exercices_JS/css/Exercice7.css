@@ -1,0 +1,19 @@
+#chosePassword {
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 5%;
+    margin-left: 34%;
+    width: 30%;
+    padding: 1%;
+}
+#resultPassword {
+    display: none;
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 1%;
+    margin-left: 34%;
+    width: 30%;
+    padding: 1%;
+}

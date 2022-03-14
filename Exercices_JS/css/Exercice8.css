@@ -1,0 +1,28 @@
+#justePrix {
+    position: absolute;
+    float: left;
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 5%;
+    margin-left: 15%;
+    max-height: 509px;
+    width: 30%;
+    padding: 1%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#justePrix>label {
+    margin-bottom: 1%;
+}
+#resultJustePrix {
+    position: absolute;
+    display: none;
+    border: 1px solid white;
+    outline: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 11%;
+    margin-left: 50%;
+    width: 30%;
+    padding: 1%;
+}

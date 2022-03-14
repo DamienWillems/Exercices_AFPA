@@ -1,0 +1,166 @@
+body {
+    background: url("../Pictures/background.png") no-repeat fixed center;
+    background-size: cover;
+}
+header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+header h1 {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+h2 {
+    text-decoration : underline;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    font-size: 1.5vw;
+    text-align: center;
+}
+p {
+    font-size: 1vw;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+}
+label {
+    display: block;
+	text-align: center;
+    color: white;
+}
+input {
+    border-radius: 15px;
+	background-color: rgb(122, 217, 255);
+	margin: 2% 28%;
+    outline: 2px solid black;
+}
+input:hover {
+	background-color: rgb(163, 229, 255);
+}
+.main {
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: -0.1%;
+}
+.exHead {
+    text-decoration: underline;
+    font-size: 50px;
+    display: none;
+    margin-top: -0.1%;
+}
+#btn-1-5 {
+    position: absolute;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.664), rgba(0, 0, 0, 0.664));
+    width: 42vw;
+    margin-left: 6.6%;
+}
+#btn-6-10 {
+    position: absolute;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.664), rgba(0, 0, 0, 0.664));
+    width: 42vw;
+    margin-left: 53.3%
+}
+.btn {
+    margin: 1%;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, rgb(2, 255, 2), black);
+    color: white;
+    font-size: 40px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px black;
+    width: 98%;
+    min-height: 14.5vh;
+}
+.btn:hover {
+    background: linear-gradient(to bottom right, blue, black);
+}
+.btn:active {
+    background: linear-gradient(to bottom right, red, black);
+}
+.pageEx {
+    display: none;
+    position: absolute;
+    margin-top: -5%;
+    width: 99%;
+    height: 645px;
+    overflow: hidden;
+}
+#return {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.664), rgba(0, 0, 0, 0.664));
+    border-radius: 19px;
+    width: 30vw;
+    min-height: 14vh;
+    bottom: 5vh;
+    margin-top: 70vh;
+    margin-left: 35%;
+    display: none;
+}
+#btn-foot {
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, rgb(2, 255, 2), black);
+    width: 29.25vw;
+    min-height: 12vh;
+    margin-top: 1vh;
+    margin-left: 0.3vw;
+    color: white;
+    font-size: 40px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 3px black;
+    display: none;
+}
+#btn-foot>span {
+    width: 29.25vw;
+    max-height: 0.1vh;
+}
+#btn-foot:hover {
+    background: linear-gradient(to bottom right, blue, black);
+}
+#btn-foot:active {
+    background: linear-gradient(to bottom right, red, black);
+}
+.validation {
+    display: inline-block;
+    min-width: 1vw;
+    margin-top: 3%;
+    background-color: tomato;
+    margin-left: 44%;
+    outline: 2px solid black;
+    border-radius: 15px;
+}
+.validation:hover {
+    background-color: rgb(250, 143, 124);
+}
+.validation:active {
+    background-color: rgb(255, 64, 30);
+}
+.proposition {
+    display: none;
+    margin-top: 3%;
+    background-color: tomato;
+    margin-left: 44%;
+    outline: 2px solid black;
+    border-radius: 15px;
+}
+.proposition:hover {
+    background-color: rgb(250, 143, 124);
+}
+.proposition:active {
+    background-color: rgb(255, 64, 30);
+}
+.tryAgain {
+    display: none;
+    margin-top: 3%;
+    background-color: tomato;
+    margin-left: 44%;
+    outline: 2px solid black;
+    border-radius: 15px;
+}
+.tryAgain:hover {
+    background-color: rgb(250, 143, 124);
+}
+.tryAgain:active {
+    background-color: rgb(255, 64, 30);
+}
